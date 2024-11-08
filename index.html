@@ -677,11 +677,11 @@
     <!-- Kanaya testimonial area start -->
 
     <!-- Kanaya testimonial area start -->
-    <section class="" >
+    <section class="pb-5" >
         <div class="container-fluid">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-5 col-sm-12 p-5 blog-banner">
-                    <div class="blog-card border border-0 shad my-5" data-aos="fade-left"  data-aos-easing="ease-in-out">
+                    <div class="blog-card border border-0 shad my-5" >
                         <h5 class="welcome-heading-title mb-2">Some Successful Stories</h5>
                         <h2 class="welcome-heading-title-large mb-4 pb-3" style="font-size: 40px;">Happy Couple's Stories</h2>
                         <p class="welcome-text mb-3 pe-4" style="line-height: 1.5;">Read the stories of those who came here alone and left with a happy ending. They will tell you how they did it, what happened when things got tough or if there was anything in particular that made their experience so much better than expected!
@@ -690,7 +690,7 @@
                         <a href="javascript:void(0);" class="welcome-explore-btn my-4">Visit All Stories</a>
                     </div>
                 </div>
-                <div class="col-lg-7 col-sm-12 px-5 blog-area" data-aos="fade-right"  data-aos-easing="ease-in-out">
+                <div class="col-lg-7 col-sm-12 px-5 blog-area">
                     <div class="px-5">
                         <div class="blog-img"></div>
                         <h4 class="post-title mt-4">Our love feels like a business relationship</h4>
@@ -747,7 +747,7 @@
     <!-- Kanaya work section area start -->
 
     <!-- Kanaya blog section area start -->
-        <section class="blog py-5" data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-delay="100">
+        <section class="blog py-5">
             <div class="container py-5" style="padding: 0px 60px;">
                 <h5 class="welcome-heading-title mb-3 text-center text-light">Latest Blog</h5>
                 <h1 class="welcome-heading-title-large mb-4 text-center text-light">Some Relationship tips</h1>
@@ -786,16 +786,16 @@
         <secttion class="partner">
             <div class="container py-5" style="padding: 0px 60px;">
                 <div class="row d-flex align-items-center justify-content-between pt-5">
-                    <div class="col-lg-6 col-sm-12 col-md-12" data-aos="fade-left"  data-aos-easing="ease-in-out" data-aos-delay="100">
-                        <h5 class="welcome-heading-title mb-2 pb-2"data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-delay="100">Find Your</h5>
-                        <h1 class="welcome-heading-title-large mb-4" data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-delay="100">Life Partner With Us.</h1>
-                        <p class="welcome-text"data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-delay="100" style="line-height: 1.7; width: 85%;text-align: justify;">Start your journey today with the Knanaya Wedding and find a perfect match. Get ready to capture all those beautiful memories for yourself, because these are things that will last forever!<br>Dating can be fun, but it’s hard to know where you’ll end up. Have no fear! Join the Dating Club today and find your perfect match in less than 24 hours who will enjoy all of these moments with you for years into come<br>The time has never been better – get started on finding someone worth keeping around by joining this amazing new community at Knanaya Wedding right away!!</p>
+                    <div class="col-lg-6 col-sm-12 col-md-12" data-aos="fade-left" data-aos-easing="ease-in-out">
+                        <h5 class="welcome-heading-title mb-2 pb-2" data-aos="fade-up"  data-aos-easing="ease-in-out">Find Your</h5>
+                        <h1 class="welcome-heading-title-large mb-4" data-aos="fade-up"  data-aos-easing="ease-in-out">Life Partner With Us.</h1>
+                        <p class="welcome-text" data-aos="fade-up"  data-aos-easing="ease-in-out" style="line-height: 1.7; width: 85%;text-align: justify;">Start your journey today with the Knanaya Wedding and find a perfect match. Get ready to capture all those beautiful memories for yourself, because these are things that will last forever!<br>Dating can be fun, but it’s hard to know where you’ll end up. Have no fear! Join the Dating Club today and find your perfect match in less than 24 hours who will enjoy all of these moments with you for years into come<br>The time has never been better – get started on finding someone worth keeping around by joining this amazing new community at Knanaya Wedding right away!!</p>
                         <div class="d-flex align-items-center mt-4">
                             <a href="javascript:void(0);" class="welcome-login-btn ">Let's Start</a>
                             <!-- <a href="javascript:void(0);" class="welcome-explore-btn ms-5">Explore more</a> -->
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12 col-md-12 ps-5 pt-5" data-aos="fade-right"  data-aos-easing="ease-in-out" data-aos-delay="100">
+                    <div class="col-lg-6 col-sm-12 col-md-12 ps-5 pt-5" data-aos="fade-right"  data-aos-easing="ease-in-out">
                         <img src="./assests/images/pexels-mv-photography.jpg" style="height: auto; width: 100%;">
                     </div>
                 </div>
@@ -804,7 +804,7 @@
     <!-- Kanaya partner section area start -->
 
     <!-- footer area start -->
-      <footer class="site-footer">
+      <footer class="site-footer" >
         <div class="container" style="padding: 0 60px;">
             <div class="row pb-5">
                 <div class="col-lg-3 col-sm-12 col-md-6 pe-4 ps-3">
@@ -889,6 +889,8 @@
     AOS.init({
         offset: 200,
         duration: 1000,
+        once: true, // The animation happens only once when scrolling in
+        easing: 'ease-out' // Easing function for the animation
     });
   </script>
   <script type="text/javascript">
