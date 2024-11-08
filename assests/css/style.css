@@ -496,7 +496,7 @@ input:focus{
     transition: all 400ms ease-in-out;
 }
 .slider .card{
-    padding: 50px 60px;
+    padding: 50px 55px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 30px rgb(0 0 0 / 8%);
