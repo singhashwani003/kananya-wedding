@@ -354,9 +354,10 @@ footer .copyright-wrap {
 input{
     border:1px solid#ccc;
     background-color: #fff;
+    cursor: pointer!important;
 }
 input:focus{
-    border:1px solid#ccc!important;
+    border:1px solid#ccc;
     background-color: #fff!important;
     box-shadow: none!important;
 }
@@ -585,4 +586,85 @@ a.read_more:hover {
 }
 .blog-area:hover .post-title{
     color: #FF5A60;
+}
+.member-banner {
+    background-color: #FF5A60;
+    background-image: url(../images/inner-page-banner-heart.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 105px 0px 180px 0px;
+    position: relative;
+}
+.member-banner:after {
+    content: '';
+    background-image: url(../images/download3.svg);
+    background-repeat: no-repeat;
+    bottom: -1px;
+    height: 165px;
+    display: block;
+    background-size: 103% auto;
+    position: absolute;
+    width: 100%;
+    background-position: bottom center;
+}
+.filter-bar-wrap {
+    background: transparent;
+    padding: 0;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+}
+.filter-bar-wrap .search-block-wrap input {
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 55px;
+    padding-right: 70px;
+    border: 0;
+    color: #B6B6B6;
+    width: 100%;
+}
+.form-control.search-block-wrap:after {
+    content: "\f002";
+    font: normal normal normal 14px / 1 FontAwesome;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    color: #ff5a61;
+    font-size: 18px;
+}
+.filter-bar-wrap .trigger-filter-icon {
+    background-color: #FF5A60;
+    color: #fff;
+    position: absolute;
+    right: 15px;
+    padding: 8px 14px;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter-bar-wrap .trigger-filter-icon i {
+    transform: rotate(0deg);
+}
+.filter-bar-wrap .input:focus {
+    border: 0!important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+  }
+  .sliders .card{
+    padding: 50px 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 8%)!important;
+}
+.sliders .card .img-postion {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    margin-right :16px;
+}
+.sliders .card h5.title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
 }
