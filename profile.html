@@ -59,7 +59,7 @@
                 </li> -->
                 </ul>
                 <div class="d-flex align-items-center justify-content-center">
-                    <a href="javascript:void(0);" class="header-login-btn"><i class="fa fa-user pe-1"></i> Login/Register</a>
+                    <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#myModal" class="header-login-btn"><i class="fa fa-user pe-1"></i> Login/Register</a>
                 </div>
             </div>
             </div>
@@ -821,7 +821,215 @@
             </div>
         </div>
       </footer>
-<!-- footer area end -->
+    <!-- footer area end -->
+    
+    <!-- The Modal area start-->
+     <div class="modal login-modal fade" id="myModal" style="background-color: rgba(0, 0, 0, .6)!important;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border border-0 rounded shadow-lg">
+
+                <!-- Modal body -->
+                <div class="modal-body p-0 rounded shadow-lg">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs w-100 d-flex flex-nowrap" role="tablist" style="border: none!important;">
+                        <li class="nav-item w-100">
+                            <a class="nav-link active border border-0" data-bs-toggle="tab" href="#login" role="tab">Login</a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a class="nav-link border border-0" data-bs-toggle="tab" href="#register" role="tab">Register</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content py-3">
+                        <div class="tab-pane active" id="login" role="tabpanel">
+                            <div class="card rounded border border-0">
+                                <div class="card-body px-4 py-4">
+                                    <form class="form-horizontal needs-validation" id="loginForm">
+                                        <div class="form-group mb-4">
+                                            <label>Username/Email <span class="required text-danger">*</span></label>
+                                            <input type="text" class="form-control" id="nametext" aria-describedby="name" placeholder=" ">
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label>Password <span class="required text-danger">*</span></label>
+                                            <input type="password" class="form-control" id="password" aria-describedby="password" placeholder=" ">
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between mb-4">
+                                            <div class="form-check form-check-inline ps-2">
+                                                <div class="custom-control custom-checkbox d-flex align-items-center">
+                                                    <input type="checkbox" class="custom-control-input" id="contract">
+                                                    <label class="custom-control-label text-secondary ms-1 p-0 my-0" for="customCheck1" style="font-size: 16px; line-height: 20px;">Remember me</label>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="text-secondary fw-12 text-end" style="font-size: 16px; line-height: 20px;">Forgot Password?</a>
+                                        </div>
+                                        
+                                        <div class="d-flex align-items-stretch button-groupmb-2 mt-2">
+                                            <button type="button" class="btn text-light w-100 fw-bold rounded" onclick="login()" style="background-color: #FF5A60!important; border-color: #FF5A60;padding: 12px 45px;font-size: 16px;">
+                                            Login
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="register" role="tabpanel">
+                            <div class="card rounded border border-0">
+                                <div class="card-body px-4 py-4">
+                                    <form class="form-horizontal needs-validation" id="loginForm">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <label>Username<span class="required text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="nametext" aria-describedby="name" placeholder=" ">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <label>Gender<span class="required text-danger">*</span></label>
+                                                    <select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <option selected>Man</option>
+                                                        <option value="1">Women</option>
+                                                        <option value="2">Couple</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <label>Email <span class="required text-danger">*</span></label>
+                                                    <input type="email" class="form-control" id="emailtext" aria-describedby="email" placeholder=" ">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <label>Confirm Email <span class="required text-danger">*</span></label>
+                                                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder=" ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <label>Birth Date<span class="required text-danger">*</span></label>
+                                            <div class="col-lg-4 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <option value="0">2006</option>
+                                                        <option value="1">2005</option>
+                                                        <option value="2">2004</option>
+                                                        <option value="3">2003</option>
+                                                        <option value="4">2002</option>
+                                                        <option value="5">2000</option>
+                                                        <option value="6">1999</option>
+                                                        <option value="7">1998</option>
+                                                        <option value="8">1997</option>
+                                                        <option value="9">1996</option>
+                                                        <option value="10">1995</option>
+                                                        <option value="11">1994</option>
+                                                        <option value="12">1993</option>
+                                                        <option value="13">1992</option>
+                                                        <option value="14">1991</option>
+                                                        <option value="15">1990</option>
+                                                        <option value="16">1989</option>
+                                                        <option value="17">1988</option>
+                                                        <option value="18">1987</option>
+                                                        <option value="19">1986</option>
+                                                        <option value="20">1985</option>
+                                                        <option value="21">1984</option>
+                                                        <option value="22">1983</option>
+                                                        <option value="23">1982</option>
+                                                        <option value="24">1981</option>
+                                                        <option value="25">1980</option>
+                                                        <option value="26">1979</option>
+                                                        <option value="27">1978</option>
+                                                        <option value="28">1977</option>
+                                                        <option value="29">1976</option>
+                                                        <option value="30">1975</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <!-- <option selected></option> -->
+                                                        <option value="0">January</option>
+                                                        <option value="1">February</option>
+                                                        <option value="2">March</option>
+                                                        <option value="3">April</option>
+                                                        <option value="4">May</option>
+                                                        <option value="5">June</option>
+                                                        <option value="6">July</option>
+                                                        <option value="7">August</option>
+                                                        <option value="8">September</option>
+                                                        <option value="9">October</option>
+                                                        <option value="10">November</option>
+                                                        <option value="11">December</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <option value="0">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="2">3</option>
+                                                        <option value="3">4</option>
+                                                        <option value="4">5</option>
+                                                        <option value="5">6</option>
+                                                        <option value="6">7</option>
+                                                        <option value="7">8</option>
+                                                        <option value="8">9</option>
+                                                        <option value="9">10</option>
+                                                        <option value="10">11</option>
+                                                        <option value="11">12</option>
+                                                        <option value="12">13</option>
+                                                        <option value="13">14</option>
+                                                        <option value="14">15</option>
+                                                        <option value="15">16</option>
+                                                        <option value="16">17</option>
+                                                        <option value="17">18</option>
+                                                        <option value="18">19</option>
+                                                        <option value="19">20</option>
+                                                        <option value="20">21</option>
+                                                        <option value="21">22</option>
+                                                        <option value="22">23</option>
+                                                        <option value="23">24</option>
+                                                        <option value="24">25</option>
+                                                        <option value="25">26</option>
+                                                        <option value="26">27</option>
+                                                        <option value="27">28</option>
+                                                        <option value="28">29</option>
+                                                        <option value="29">30</option>
+                                                        <option value="30">31</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start mb-4">
+                                            <div class="form-check form-check-inline ps-2">
+                                                <div class="custom-control custom-checkbox d-flex align-items-center">
+                                                    <input type="checkbox" class="custom-control-input" id="contract">
+                                                    <label class="custom-control-label text-secondary ms-1 p-0 my-0" for="customCheck1" style="font-size: 16px; line-height: 20px;">I agree to the <a href="#" class="text-danger ps-1">Term & Conditions.</a></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="d-flex align-items-stretch button-groupmb-2 my-2">
+                                            <button type="button" class="btn text-light w-100 fw-bold rounded" onclick="register()" style="background-color: #FF5A60!important; border-color: #FF5A60;padding: 12px 45px;font-size: 16px;">
+                                            Register
+                                            </button>
+                                        </div>
+                                        <span class="note-res" style="margin-left:10px;">Note: A password will be emailed to you.</span>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="btn-position">
+            <button type="button" class="btn-close text-light fw-bold" data-bs-dismiss="modal"></button>
+        </div>
+    </div>
+    <!-- The Modal area start-->
 
 <!-- our js data -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

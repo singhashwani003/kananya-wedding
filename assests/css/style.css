@@ -682,3 +682,157 @@ padding-left: 5px;
 padding-right: 5px;
 color: #FF5A60!important;
 }
+.blog-area-cards .card .card-body input{
+    color: #343434;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 15px;
+    height: 50px;
+}
+.blog-area-cards .card .card-body label {
+    color: #9A9A9A;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.blog-area-cards .card .card-body textarea:focus{
+    border: 1px solid #ccc!important;
+    box-shadow: none !important;
+}
+.elementor-widgets-container {
+    margin: 0px 0px -20px 0px;
+    padding: 20px 25px 20px 25px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #EAEAEA;
+    border-radius: 5px 5px 0px 0px;
+}
+.elementor-widgets-container h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+.elementor-widgetd-containerd {
+    padding: 20px 25px 20px 25px;
+    border-bottom: 1px solid#EAEAEA;
+}
+.elementor-widgetd-containerd .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(20px / 2);
+    display: flex;
+}
+.elementor-widgetd-containerd a{
+    color: #343434;
+}
+a {
+    color: #343434;
+    text-decoration: none;
+}
+ li{
+    list-style: none!important;
+}
+.elementor-widgets-container .social-links > li > a:hover {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+  }
+.accordion-button {
+    padding: 25px 30px 25px 30px;
+    border-width: 1px !important;
+    border-radius: 5px !important;
+    border: 1px solid #E2DFED;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+}
+.accordion-button:focus {
+    /* border: 1px soild #E2DFED; */
+    outline: 0;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    color: #343434;
+    border-color: none !important;
+  }
+  .accordion-button:focus {
+    border-color: #E2DFED !important;
+  }
+.accordion-body {
+    background-color: #FFFFFF;
+    padding: 30px 30px 30px 30px;
+    border-width: 0;
+    border-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.accordion-button:not(.collapsed) {
+    color: #343434!important;
+    background-color: transparent!important;
+    box-shadow: none !important;
+  }
+
+.login-modal .nav-item .nav-link:hover{
+    color: #343434!important;
+    background-color: #E5E5E5!important;
+}
+.login-modal input[type=password] , .login-modal input[type=text] ,.login-modal input[type=email], .login-modal select{
+    position: relative;
+    width: 100%;
+    margin: 0 0 14px;
+    padding: 15px 20px;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: inherit;
+    color: #929292;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    outline: 0;
+    box-sizing: border-box;
+    height: 55px;
+}
+.login-modal .nav-tabs .nav-link{
+    color: #343434!important;
+    background-color: #E5E5E5!important;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px;
+    margin: 0;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+    text-transform: uppercase;
+}
+.login-modal .nav-tabs .nav-link.active{
+    background-color: #fff!important;
+    color: #ff5a61!important;
+}
+.login-modal ul{
+    display: flex;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.login-modal ul li{
+    border-bottom: 1px solid #e5e5e5;
+}
+.btn-position{
+    position: absolute;
+    top:25px; 
+    right: 20px;
+    color: #fff!important;
+    z-index: 9!important;
+    opacity: 1!important;
+    font-size: 20px;
+}
+.login-modal .card .card-body label {
+    color: #9A9A9A;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
+.header-login-btn{
+    color: #fff!important;
+}
