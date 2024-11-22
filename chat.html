@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <!-- bootstrap css link  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- aos css link -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- slide css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- external css -->
+        <link rel="stylesheet" href="./assests/css/style.css?ver=2"/>
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.cdnfonts.com/css/nunito-sans" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+        
+        <title>Knanaya Wedding</title>
+        <link rel="icon" type="image/x-icon" href="./assests/images/logo-trans.png">
+    </head>
+
+    <body>
+
+    <!-- Navbar Area Started -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light site-header sticky-top">
+            <div class="container" style="padding-left: 60px; right: 60px;">
+            <a class="navbar-brand d-flex align-items-center ps-0" href="index.html">
+                <img src="./assests/images/logo-transparent.png" alt="Knanaya logo" style="width: 231px; height: 67px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link px-0 pt-0" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0 pt-0" href="./member.html">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0 pt-0 active" href="./profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0 pt-0" href="./story.html">Happy Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0 pt-0" href="./testimonial.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0 pt-0" href="./contact.html">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Contact Us</a>
+                    </li> -->
+                </ul>
+                <div class="d-flex align-items-center justify-content-center">
+                    <ul class="navbar-nav additional-nav d-flex align-items-center justify-content-center" style="margin-left: 20px;">
+                        <li class="nav-item">
+                            <a class="nav-link px-0 pt-0" href="javscript:void();"><i class="fa fa-gift"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-0 pt-0" href="javscript:void();"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-0 pt-0" href="javscript:void();"><i class="fa fa-users"></i></a>
+                        </li>
+                        <li class="nav-item profile-circle py-0 my-0">
+                            <a class="nav-link px-0 pb-0 my-0" href="javascript:void(0)" style="padding-top: 4px;">
+                                <img src="./assests/images/thumb_image_1731801608.jpeg" class="header-profile-image" alt="Avyaan Khan">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+    <!-- Navbar Area end -->
+
+    <!-- member banner area start -->
+     <div class="profile-banner">
+        <div class="members-banners" style="position: relative;height: 450px;">
+            <div class="container position-profile">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-3 col-sm-6" style="position: relative; width: 230px;">
+                        <div class="profile-place">
+                            <img src="./assests/images/profile.jpeg" class="w-100">
+                        </div>
+                        <div class="update_profile_text_div"  title="Update Profile Picture">
+                            <a id="change-profile-pic" class="" href="javscript:void();">
+                                <i class="fa fa-camera" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="wpee-user-status wpee-online"></div>
+                    </div>
+                    <div class="col-lg-3 col-sm-3">
+                        <div class="user-info-wrapper">
+                            <h4 class="username text-white">Avyaan Khan</h4>
+                            <div class="age-location-wrap text-white">
+                                <div class="profile-age">
+                                    <span class="age-title">Age:</span>33 
+                                </div>
+
+                                <div class="profile-location">
+                                    <span class="location-title">Location : </span> *Delhi,                                                         India                            </div>
+                                </div>
+                                <div class="account-status-profile-credit-wrapper">
+                                    <div class="account-status">
+                                    <div class="profile-location">
+                                        Free Member
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-3 d-flex justify-content-end">
+                        <a class="trigger-cover-photo" href="javascript:void(0)">Edit Cover Photo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- member-banner area end -->
+
+    <!-- Kanaya looking partner section area start -->
+       <section class="py-5" style="background-color: transparent;">
+        <div class="container" style="padding: 0px 60px;">
+            <div class="profile-header-menu">
+                <div class="row profile-tab">
+                    <div class="col-lg-6 col-sm-12">
+                        <ul class="d-flex align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="#">Activity</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="profile.html">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="media.html">Media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="#">Message</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="#">Search</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="#">Friends</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0 active" href="chat.html">Chat</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 d-flex justify-content-end">
+                        <ul class="d-flex align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="#"><i class="fa fa-gift"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="profile.html"><i class="fa fa-smile-o"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="#"><i class="fa fa-users"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="#"><i class="fa fa-cog"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 pt-0" href="#"><i class="fa fa-ellipsis-h"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row px-0 profile-photo-card mt-4 pt-3">
+                <div class="col-lg-9 col-sm-12 col-md-12 pe-3 ps-3">
+                    <div class="row" style="border: 1px solid #e3e1e4;border-radius: 8px;">
+                        <div class="col-lg-4 col-sm-12 col-md-6 user-chat" style="border-right: 1px solid #e3e1e4;">
+                            <div class="card">
+
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12 col-md-6"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-12 ps-3">
+                    <div class="card border border-1">
+                        <!-- <h4 class="wpee-block-title">Friends</h4> -->
+                        <div class="card-body">
+                            <ul class="friends-section profile-friends-list"><!-- friends-section class used -->
+	    	                    <span class="dsp_span_pointer">Sorry there are no users to show.</span>
+                		    </ul>
+                        </div>
+                        <div class="wpee-block-footers">
+                            <a href="#" class="edit-profile-link text-light">Want to Meet Me?</a>
+                        </div>
+                    </div>
+                    <div class="card border border-0">
+                        <h4 class="wpee-block-title">Online Members</h4>
+                        <div class="card-body">
+                            <ul class="profile-photo-list flex-wrap d-flex online-member-list">
+                                <li class="photos-list">
+                                    <a rel="example_group" href="#">
+                                        <span class="image-bg">
+                                            <img src="./assests/images/list7.jpg" style="height:68px;">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="photos-list">
+                                    <a rel="example_group" href="#">
+                                        <span class="image-bg">
+                                            <img src="./assests/images/list8.jpeg" style="height:68px;">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="photos-list">
+                                    <a rel="example_group" href="#">
+                                        <span class="image-bg">
+                                            <img src="./assests/images/list9.jpg" style="height:68px;">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="photos-list">
+                                    <a rel="example_group" href="#">
+                                        <span class="image-bg">
+                                            <img src="./assests/images/list9.jpg" style="height:68px;">
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="wpee-block-footer">
+                            <a href="#" class="edit-profile-link">Edit Photos</a>
+                        </div> -->
+                    </div>
+                </div>
+                
+            </div>        
+        </div>
+       </section>
+    <!-- Kanaya looking partner section area start -->
+
+    <!-- footer area start -->
+      <footer class="site-footer" >
+        <div class="container" style="padding: 0 60px;">
+            <div class="row pb-5">
+                <div class="col-lg-3 col-sm-12 col-md-6 pe-4 ps-3">
+                    <a class="navbar-brand p-0 d-flex align-items-center mb-3 pb-2" href="index.html">
+                        <img src="./assests/images/logo-transparent.png" alt="Knanaya logo" style="width: 231px; height: 67px;">
+                    </a>
+                    <p>Knanaya Wedding helps you find your perfect soulmate. Join today and start searching for your partner right away.</p>
+                    <ul class="social-links no-dot d-flex">
+                        <li>
+                            <a class="d-i-flex align-center justify-center" target="_blank" href="#"><i class="fa fa-facebook-f"></i></a>
+                         </li>
+                         <li>
+                            <a class="d-i-flex align-center justify-center" target="_blank" href="#"><i class="fa fa-twitter"></i></a> 
+                        </li>
+                        <li>
+                            <a class="d-i-flex align-center justify-center" target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a class="d-i-flex align-center justify-center" target="_blank" href="#"><i class="fa fa-rss"></i></a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6 ps-5 mt-2">
+                    <h3 class="widget-title footer-title ps-5">Quick Links</h3>
+                    <ul id="menu-quick-links" class="menu ps-5">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-368"><a href="./testimonial.html">Testimonials</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><a href="./blog.html">Blog</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6 pe-4 ps-3 mt-2">
+                    <h3 class="widget-title footer-title">Contact Details</h3>
+                    <ul class="detials-wrap no-dot">
+                        <li class="d-flex">
+                            <i class="fa fa-map-marker"></i><div class="detail-content">Knanaya Wedding Services <br> 28/12, Main Avenue, Panampilly Nagar, Kochi, Kerala</div>
+                        </li>
+                        <li class="d-flex">
+                            <i class="fa fa-envelope"></i><div class="detail-content"><a href="mailto:presale@wpdating.com">info@knanayaweddings.com</a></div>
+                        </li>
+                        <li class="d-flex">
+                            <i class="fa fa-phone"></i><div class="detail-content"><a href="tel:+1 217 650 2736">: +91 7025422022</a></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6 ps-5 mt-2">
+                    <h3 class="widget-title footer-title">Subscribe To Newsletter</h3>
+                    <p>Be the first one to know about out new features, updates and many more.</p>
+                    <div class="input-group mt-2">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                        <a href="#" class="input-group-text bg-light"><i data-feather="file-text" class="fa fa-forward fill-white" style="color: #FF5A60;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap">
+            <div class="container d-flex align-items-center justify-content-between" style="padding: 0px 60px;">
+                <div class="left-content">
+                    <div class="copyright">
+                        <p class="mb-0"> Copyright © 2024 Genie SoftSystem. All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <div class="menu-footer-bottom-menu-container">
+                        <ul id="menu-footer-bottom-menu" class="menu d-flex align-items-center">
+                            <li  class="menu-item menu-item-type-custom ps-3 mb-0 menu-item-object-custom menu-item-374"><a href="#">FAQ</a></li>
+                            <li  class="menu-item menu-item-type-custom ps-3 mb-0 menu-item-object-custom menu-item-375"><a rel="privacy-policy" href="#">Privacy Policy</a></li>
+                            <li  class="menu-item menu-item-type-custom ps-3 mb-0 menu-item-object-custom menu-item-376"><a href="#">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>                
+                </div>
+            </div>
+        </div>
+      </footer>
+    <!-- footer area end -->
+    
+    <!-- The Modal area start-->
+     <div class="modal login-modal fade" id="myModal" style="background-color: rgba(0, 0, 0, .6)!important;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border border-0 rounded shadow-lg">
+
+                <!-- Modal body -->
+                <div class="modal-body p-0 rounded shadow-lg">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs w-100 d-flex flex-nowrap" role="tablist" style="border: none!important;">
+                        <li class="nav-item w-100">
+                            <a class="nav-link active border border-0" data-bs-toggle="tab" href="#login" role="tab">Login</a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a class="nav-link border border-0" data-bs-toggle="tab" href="#register" role="tab">Register</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content py-3">
+                        <div class="tab-pane active" id="login" role="tabpanel">
+                            <div class="card rounded border border-0">
+                                <div class="card-body px-4 py-4">
+                                    <form class="form-horizontal needs-validation" id="loginForm">
+                                        <div class="form-group mb-4">
+                                            <label>Username/Email <span class="required text-danger">*</span></label>
+                                            <input type="text" class="form-control" id="nametext" aria-describedby="name" placeholder=" ">
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label>Password <span class="required text-danger">*</span></label>
+                                            <input type="password" class="form-control" id="password" aria-describedby="password" placeholder=" ">
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between mb-4">
+                                            <div class="form-check form-check-inline ps-2">
+                                                <div class="custom-control custom-checkbox d-flex align-items-center">
+                                                    <input type="checkbox" class="custom-control-input" id="contract">
+                                                    <label class="custom-control-label text-secondary ms-1 p-0 my-0" for="customCheck1" style="font-size: 16px; line-height: 20px;">Remember me</label>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="text-secondary fw-12 text-end" style="font-size: 16px; line-height: 20px;">Forgot Password?</a>
+                                        </div>
+                                        
+                                        <div class="d-flex align-items-stretch button-groupmb-2 mt-2">
+                                            <button type="button" class="btn text-light w-100 fw-bold rounded" onclick="login()" style="background-color: #FF5A60!important; border-color: #FF5A60;padding: 12px 45px;font-size: 16px;">
+                                            Login
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="register" role="tabpanel">
+                            <div class="card rounded border border-0">
+                                <div class="card-body px-4 py-4">
+                                    <form class="form-horizontal needs-validation" id="loginForm">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <label>Username<span class="required text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="nametext" aria-describedby="name" placeholder=" ">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <label>Gender<span class="required text-danger">*</span></label>
+                                                    <select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <option selected>Man</option>
+                                                        <option value="1">Women</option>
+                                                        <option value="2">Couple</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <label>Email <span class="required text-danger">*</span></label>
+                                                    <input type="email" class="form-control" id="emailtext" aria-describedby="email" placeholder=" ">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <label>Confirm Email <span class="required text-danger">*</span></label>
+                                                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder=" ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <label>Birth Date<span class="required text-danger">*</span></label>
+                                            <div class="col-lg-4 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <option value="0">2006</option>
+                                                        <option value="1">2005</option>
+                                                        <option value="2">2004</option>
+                                                        <option value="3">2003</option>
+                                                        <option value="4">2002</option>
+                                                        <option value="5">2000</option>
+                                                        <option value="6">1999</option>
+                                                        <option value="7">1998</option>
+                                                        <option value="8">1997</option>
+                                                        <option value="9">1996</option>
+                                                        <option value="10">1995</option>
+                                                        <option value="11">1994</option>
+                                                        <option value="12">1993</option>
+                                                        <option value="13">1992</option>
+                                                        <option value="14">1991</option>
+                                                        <option value="15">1990</option>
+                                                        <option value="16">1989</option>
+                                                        <option value="17">1988</option>
+                                                        <option value="18">1987</option>
+                                                        <option value="19">1986</option>
+                                                        <option value="20">1985</option>
+                                                        <option value="21">1984</option>
+                                                        <option value="22">1983</option>
+                                                        <option value="23">1982</option>
+                                                        <option value="24">1981</option>
+                                                        <option value="25">1980</option>
+                                                        <option value="26">1979</option>
+                                                        <option value="27">1978</option>
+                                                        <option value="28">1977</option>
+                                                        <option value="29">1976</option>
+                                                        <option value="30">1975</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <!-- <option selected></option> -->
+                                                        <option value="0">January</option>
+                                                        <option value="1">February</option>
+                                                        <option value="2">March</option>
+                                                        <option value="3">April</option>
+                                                        <option value="4">May</option>
+                                                        <option value="5">June</option>
+                                                        <option value="6">July</option>
+                                                        <option value="7">August</option>
+                                                        <option value="8">September</option>
+                                                        <option value="9">October</option>
+                                                        <option value="10">November</option>
+                                                        <option value="11">December</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-12">
+                                                <div class="form-group mb-4">
+                                                    <select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <option value="0">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="2">3</option>
+                                                        <option value="3">4</option>
+                                                        <option value="4">5</option>
+                                                        <option value="5">6</option>
+                                                        <option value="6">7</option>
+                                                        <option value="7">8</option>
+                                                        <option value="8">9</option>
+                                                        <option value="9">10</option>
+                                                        <option value="10">11</option>
+                                                        <option value="11">12</option>
+                                                        <option value="12">13</option>
+                                                        <option value="13">14</option>
+                                                        <option value="14">15</option>
+                                                        <option value="15">16</option>
+                                                        <option value="16">17</option>
+                                                        <option value="17">18</option>
+                                                        <option value="18">19</option>
+                                                        <option value="19">20</option>
+                                                        <option value="20">21</option>
+                                                        <option value="21">22</option>
+                                                        <option value="22">23</option>
+                                                        <option value="23">24</option>
+                                                        <option value="24">25</option>
+                                                        <option value="25">26</option>
+                                                        <option value="26">27</option>
+                                                        <option value="27">28</option>
+                                                        <option value="28">29</option>
+                                                        <option value="29">30</option>
+                                                        <option value="30">31</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start mb-4">
+                                            <div class="form-check form-check-inline ps-2">
+                                                <div class="custom-control custom-checkbox d-flex align-items-center">
+                                                    <input type="checkbox" class="custom-control-input" id="contract">
+                                                    <label class="custom-control-label text-secondary ms-1 p-0 my-0" for="customCheck1" style="font-size: 16px; line-height: 20px;">I agree to the <a href="#" class="text-danger ps-1">Term & Conditions.</a></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="d-flex align-items-stretch button-groupmb-2 my-2">
+                                            <button type="button" class="btn text-light w-100 fw-bold rounded" onclick="register()" style="background-color: #FF5A60!important; border-color: #FF5A60;padding: 12px 45px;font-size: 16px;">
+                                            Register
+                                            </button>
+                                        </div>
+                                        <span class="note-res" style="margin-left:10px;">Note: A password will be emailed to you.</span>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="btn-position">
+            <button type="button" class="btn-close text-light fw-bold" data-bs-dismiss="modal"></button>
+        </div>
+    </div>
+    <!-- The Modal area start-->
+
+<!-- our js data -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    AOS.init({
+        offset: 200,
+        duration: 1000,
+        once: true, // The animation happens only once when scrolling in
+        easing: 'ease-out' // Easing function for the animation
+    });
+  </script>
+  <script type="text/javascript">
+    $('.slider').slick({
+  dots: true,
+  infinite:true,
+  speed: 300,
+  autoplay: true,              // Enable autoplay
+  centerMode: true,
+  autoplaySpeed: 2000, 
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  </script>
+    </body>
+</html>
