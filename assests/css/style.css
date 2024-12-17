@@ -1452,7 +1452,19 @@ textarea:focus{
 .dsp-chat-user-display-name{
     color: #343434!important;
 }
+.chatbot-section-desktop{
+    display: flex!important;
+}
+.chatbot-section-mobile{
+    display: none!important;
+}
 @media only screen and (max-width: 576px) {
+    .chatbot-section-desktop{
+        display: none!important;
+    }
+    .chatbot-section-mobile{
+        display: flex!important;
+    }
 .site-header {
     padding: 7px 0px !important;
     border-bottom: 1px solid #EEE !important;
@@ -1462,7 +1474,7 @@ textarea:focus{
     padding-left: 16px!important;
   }
   .navbar .nav-item .nav-link {
-    margin-left: 10px;
+    margin-left: 10px!important;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.4;
@@ -1779,6 +1791,9 @@ textarea:focus{
 }
 .photo-profile{
     width: 80px!important;
+    position: absolute!important;
+    top: 75%;
+    left: 33%;
 }
 .update_profile_text_div>a {
     width: 25px;
@@ -1804,17 +1819,161 @@ textarea:focus{
     border-radius: 16px;
 }
 .user-info-wrapper {
-    margin-bottom: 124px;
-    margin-left: 190px;
-    display: flex
-;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
     min-height: 181px;
     flex-direction: column;
     justify-content: flex-end;
 }
-  /* .elementor-icon {
+.banner-profile{
+    height: 170px!important;
+}
+h4.username.text-white {
+    font-size: 22px;
+  }
+  .age-location-wrap {
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+  .account-status {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+  .trigger-cover-photo {
+    font-size: 12px;
+    display: inline-block;
+    line-height: 1;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.08);
+    text-align: right;
+    color: #000;
+    border: 1px solid #fff;
+    text-decoration: none !important;
+    font-weight: 500;
+    padding: 10px 12px;
+    margin-bottom: -3px;
+  }
+  .profile-tab ul li .nav-link {
+    position: relative;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+  }
+  .profile-tab li:not(:last-child) {
+    margin-right: 10px;
+  }
+  .profile-tab .col-lg-6{
+    padding: 0px!important;
+    margin-bottom: 10px;
+  }
+  .profile-header-menu {
+    background: #FF5A60;
+    padding: 16px 20px 10px;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .chat-feed input[type="submit"] {
+    position: absolute;
+    right: 10px;
+    top: 7.5px;
+    min-width: 50px;
+    font-size: 12px;
+  }
+  .login-modal .modal-dialog{
+    width: 375px!important;
+  }
+  .login-modal input[type="password"], .login-modal input[type="text"], .login-modal input[type="email"], .login-modal select {
+    position: relative;
+    width: 100%;
+    margin: 0 0 14px;
+    padding: 12px 16px;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: inherit;
+    color: #929292;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    outline: 0;
+    box-sizing: border-box;
+    height: 40px;
+  }
+  .login-modal .card .card-body label {
+    color: #9A9A9A;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .btn-position {
+    position: absolute;
+    top: 70px;
+    right: 45px;
+    color: #fff !important;
+    z-index: 9 !important;
+    opacity: 1 !important;
     font-size: 20px;
-    padding: 15px 20px;
+  }
+  .profile-header .additional-nav{
+    margin-left: 0px!important;
+  }
+  .row-main .chat-date {
+    font-size: 12px;
+  }
+  .row-main .messages ul li .message-text {
+    font-size: 12px;
+  }
+  .chatbot-section-mobile .fa-photo {
+    font-size: 18px!important;
+  }
+  .chatbot-section-mobile .fa-paper-plane{
+    font-size: 18px!important;
+  }
+  .wrap .send-button {
+    height: 40px;
+  }
+  .wrap .left-image {
+    flex: 0 0 0px;
+    width: 30px !important;
+    position: relative;
+  }
+  .wrap .right-send {
+    width: 20px !important;
+  }
+  .emoji-wysiwyg-editor{
+    height: 40px!important;
+  }
+  .row-main .nav-link .message-user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    padding: 0;
+    margin-right: 0px;
+  }
+  .row-main .nav-link {
+    padding: 10px 8px;
+  }
+  /* #register  .btn-position {
+    position: absolute;
+    top: 47px!important;
+    right: 30px!important;
+    color: #fff !important;
+    z-index: 9 !important;
+    opacity: 1 !important;
+    font-size: 16px!important;
+  } */
+  /* .message-user .meta{
+    display: none;
+  } */
+  /* .row-main{
+    display: flex!important;
+    flex-wrap: nowrap!important;
+    justify-content: start!important;
   } */
 }
 
