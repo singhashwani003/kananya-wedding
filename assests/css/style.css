@@ -792,6 +792,29 @@ a {
     box-sizing: border-box;
     height: 55px;
 }
+.login-modal .register input[type=password] , .login-modal .register input[type=text] ,.login-modal .register input[type=email], .login-modal .register select , .login-modal .register input[type=tel]{
+  position: relative;
+  width: 100%;
+  margin: 0 0 14px;
+  padding: 12px 10px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: inherit;
+  color: #929292;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  outline: 0;
+  box-sizing: border-box;
+  height: 45px;
+}
+.login-modal .register .card .card-body label {
+  color: #343434;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
 .login-modal .nav-tabs .nav-link{
     color: #343434!important;
     background-color: #E5E5E5!important;
@@ -1958,22 +1981,17 @@ h4.username.text-white {
   .row-main .nav-link {
     padding: 10px 8px;
   }
-  /* #register  .btn-position {
-    position: absolute;
-    top: 47px!important;
-    right: 30px!important;
-    color: #fff !important;
-    z-index: 9 !important;
-    opacity: 1 !important;
-    font-size: 16px!important;
-  } */
-  /* .message-user .meta{
-    display: none;
-  } */
-  /* .row-main{
-    display: flex!important;
-    flex-wrap: nowrap!important;
-    justify-content: start!important;
-  } */
+  .login-modal .register input[type=password] , .login-modal .register input[type=text] ,.login-modal .register input[type=email], .login-modal .register select , .login-modal .register input[type=tel]{
+    margin: 0 0 10px!important;
+    padding: 12px 10px;
+    height: 45px;
+  }
+  .login-modal .register .card .card-body label {
+    margin-bottom: 5px!important;
+    font-size: 14px;
+  }
+  .agree-tc{
+    font-size: 12px!important;
+  }
 }
 
