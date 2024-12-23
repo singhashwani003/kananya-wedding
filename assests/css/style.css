@@ -1526,6 +1526,42 @@ textarea:focus{
 footer.site-footer::before {
   display: none;
 }
+.file-preview {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity = 20);
+  opacity: .2;
+}
+.file-preview-frame.selected {
+  box-shadow: 1px 1px 5px 1px #106F00;
+}
+.file-preview-frame {
+  width: 180px;
+  margin: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 5px 0px #a2958a;
+  padding: 6px;
+  float: left;
+  text-align: center;
+}
+.file-preview-image {
+  display: block;
+  height: 160px;
+  margin: auto;
+}
 @media only screen and (max-width: 576px) {
     .chatbot-section-desktop{
         display: none!important;
