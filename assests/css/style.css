@@ -1484,7 +1484,7 @@ textarea:focus{
 .registration-section{
   background: url(../images/bg-inner-page.jpg) repeat fixed center top / 100% auto rgba(0, 0, 0, 0);
   width: 100%;
-  padding: 60px 0px;
+  padding: 60px 0px 120px;
 }
 .registration-section .form-check-inline{
   font-size: 14px!important;
