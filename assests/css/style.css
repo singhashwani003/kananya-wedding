@@ -1481,6 +1481,51 @@ textarea:focus{
 .chatbot-section-mobile{
     display: none!important;
 }
+.registration-section{
+  background: url(../images/bg-inner-page.jpg) repeat fixed center top / 100% auto rgba(0, 0, 0, 0);
+  width: 100%;
+  padding: 60px 0px;
+}
+.registration-section .form-check-inline{
+  font-size: 14px!important;
+}
+.registration-section select{
+  margin: 0px!important;
+}
+.registration-form .nav-pills .nav-item .nav-link {
+  color: #fff!important;
+  background-color: #094373!important;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 18px;
+  margin: 0;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+  border-radius: 0px!important;
+}
+.registration-form .nav-pills .nav-item .nav-link.active{
+  color: #fff !important;
+  background-color: #FF5A60!important;
+  cursor: pointer;
+}
+.registration-form .nav-pills .nav-item .nav-link:hover {
+  color: #fff !important;
+  background-color: #ff767b!important;
+  cursor: pointer;
+}
+.registration-form h1{
+  background: none repeat scroll 0 0 #4c657c;
+  color: #fff;
+  font: 17px / 30px Oswald;
+  /* height: 50px; */
+  margin: 0;
+  padding: 16px 20px;
+  text-align: left;
+}
+footer.site-footer::before {
+  display: none;
+}
 @media only screen and (max-width: 576px) {
     .chatbot-section-desktop{
         display: none!important;
