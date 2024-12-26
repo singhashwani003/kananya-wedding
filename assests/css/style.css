@@ -1562,7 +1562,7 @@ footer.register-footer::before {
   height: 160px;
   margin: auto;
 }
-.card:hover {
+.card::before{
   transform: translateY(-5px);
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.09);
   position: relative;
