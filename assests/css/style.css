@@ -1575,6 +1575,10 @@ footer.register-footer::before {
   bottom: -20px;
   z-index: 99;
 }
+.zoom-hover::before{
+  background-color: #000!important;
+  z-index: 999!important;
+}
 @media only screen and (max-width: 576px) {
     .chatbot-section-desktop{
         display: none!important;
