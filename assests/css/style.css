@@ -1580,6 +1580,7 @@ footer.register-footer::before {
   width: 368px;
   height:368px;
   padding: 0px!important;
+  left:0px!important;
 }
 .zoom-hover::before{
   background-color: #000!important;
