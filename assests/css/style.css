@@ -1568,7 +1568,7 @@ footer.register-footer::before {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.09);
   position: relative;
 }
-.tab-content .card:hover .user-details::before {
+.tab-content .card .user-details::before {
   content: '';
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .1) 20%, rgba(0, 0, 0, 1) 100%);
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .1) 20%, rgba(0, 0, 0, 1) 100%);
